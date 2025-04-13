@@ -1,0 +1,16 @@
+/* Global */
+
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/container.css";
+@import "global/visually-hidden.css";
+@import "global/btn.css";
+
+/* Blocks */
+
+@import "blocks/catalog-list.css";
+@import "blocks/catalog-card.css";
+@import "blocks/parameter-card.css";
+@import "blocks/header.css";
+@import "blocks/catalog.css";
+@import "blocks/catalog__parameters-button.css";

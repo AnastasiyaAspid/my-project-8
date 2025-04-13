@@ -1,0 +1,32 @@
+.catalog__parameters-button {
+    border: 1px solid rgba(173, 131, 97, 1);
+    border-radius: 60px;
+    padding: 11px;
+    cursor: pointer;
+    color: rgba(173, 131, 97, 1);
+}
+
+.catalog__parameters-button:hover {
+    border: 1px solid rgba(173, 131, 97, 1);
+    background: rgba(173, 131, 97, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.catalog__parameters-button:focus {
+    border: 1px solid rgba(173, 131, 97, 1);
+    background: rgba(173, 131, 97, 1);
+    color: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+.catalog__parameters-button:checked {
+    display: none;
+    outline: none;
+}
+
+.catalog__parameters-button:disabled {
+    color: rgba(173, 131, 97, 0.5);
+    border: 1px solid rgba(173, 131, 97, 0.5);
+    background: rgba(243, 243, 243, 0.5);
+    cursor: default;
+}
